@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initialscale=1.0">
+<title>cadastro</title>
+<style>
+body{
+background-color: rgb(241, 239, 239);
+}
+.imagem{
+position: absolute;
+margin-left: 652px;
+width: 780px;
+height: 778px;
+margin-top: -83px;
+background-color: rgb(19, 19, 150);
+}
+.UnifafibeSombra{
+box-shadow: -9px 7px 5px rgb(185, 181, 181);
+border:none;
+position: absolute;
+margin-top: 120px;
+}
+.botao{
+border-radius: 5px 5px 5px 5px;
+color: white;
+background-color: rgb(10, 31, 221);;
+border: none;
+size: 12px;
+padding: 10px;
+transition: 2s all ease-out;
+position: absolute;
+margin-top: 398px;
+margin-left: 214px;
+width: 95px;
+font-size: 17px;
+font-weight: bold;
+transition: 2s ease-out;
+}
+.botao:hover{
+width: 230px;
+}
+.botao:hover,:focus{
+background-color: rgb(11, 5, 43);
+}
+td{
+border-style: dashed;
+}
+table{}
+.UnifafibeSombra{
+transition: 2s all ease-out;
+position: absolute;
+height: 35px;
+border-radius: 5px 5px 5px 5px;
+margin-top: 378px;
+margin-left: 215px;
+size: 100px;
+width: 230px;
+}
+.UnifafibeSombra:hover{
+background-color: rgb(105, 60, 4);
+}
+.UnifafibeSombra::placeholder{
+color: white;
+}
+.a2022199022{
+box-shadow: -9px 5px 7px rgb(185, 181, 181);
+border: none;
+position: absolute;
+transition: 2s;
+color: white;
+margin-top: 300px;
+height: 32px;
+border-radius: 5px 5px 5px 5px;
+width: 230px;
+margin-left: 215px;
+}
+.a2022199022:hover{
+background-color: rgb(180, 119, 5);
+color: white;
+}
+.a2022199022::placeholder{
+color: white;
+}
+.manualUnifafibe{
+width: 100px;
+height: 200px;
+position: absolute;
+}
+.VoltarPara{
+position: absolute;
+margin-left: 519px;
+margin-top: 10px;
+color: rgb(32, 18, 223);
+background-color: white;
+border: none;
+font-size: 17px;
+font-family: Arial, Helvetica, sans-serif;
+transition: 2s ease-out;
+border-radius: 5px 5px 5px 5px;
+background-color: rgb(241, 239, 239);
+}
+.redefinir{
+border-radius: 5px,5px,5px,5px;
+color: rgb(20, 23, 219);
+font-size: 17px;
+text-decoration: none;
+}
+.VoltarPara:hover,:focus{
+background-color: rgba(31, 45, 231, 0.966);
+cursor: pointer;
+}
+.MateriaisDoAlunoLucas{
+position: absolute;
+margin-left: 120px;
+}
+.estudo{
+position: absolute;
+margin-top: 652px;
+font-size: 15px;
+color: gray;
+margin-left: 136px;
+}
+.redefinir{
+border-radius: 5px 5px 5px 5px;
+font-size: 15px;
+font-weight: bolder;
+transition: 2s all ease-out
+}
+.esquecer{
+margin-top: 450px;
+margin-left: 234px;
+position: absolute;
+font-size: 15px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.portal{
+margin-top: 220px;
+margin-left: 217px;
+font-weight: bolder;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.senha{
+margin-top: 343px;
+color: gray;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+position: absolute;
+font-size: 17px;
+margin-left: 220px;
+}
+.portal{
+position: absolute;
+color: rgb(110, 110, 110);
+font-weight: bolder;
+}
+.redefinir:hover{
+background-color: rgb(41, 110, 212);
+border-radius: 5px,5px,5px,5px;
+}
+.nome{
+margin-left: 219px;
+position: absolute;
+margin-top: 300px;
+font-size: 17px;
+color: gray;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.entrar{
+position: absolute;
+font-weight: bolder;
+margin-top: 230px;
+margin-left: 214px;
+font-size: 50px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+
+</style>
+</head>
+<body>
+<div class="materiaisDoAlunoLucas">
+<button class="VoltarPara">Voltar ao site</button>
+</div>
+<div name="textos">
+</div>
+<div class="UnifafibeEntrada">
+<p class="portal">Portal do aluno</p>
+<form action="conexao.php" method="POST">
+<p class="nome">Nome</p>
+<h1 class="entrar">Cadastrar</h1>
+<input id="nome" name="nome" class="UnifafibeSombra" size="100px"
+type="text" placeholder="salvar senha" title="senha"><br>
+<p class="senha">Senha</p>
+<input id="pass" name="pass" class="a2022199022"type="text"
+placeholder="salvar nome" title="nome"><br>
+<button class="botao">Cadastrar</button><br>
+<p class="esquecer"> Esqueceu sua senha? <a href="#"
+class="redefinir">REDEFINIR</a></p>
+</form>
+</div>
+<div class="UnifafibeImagem"> <img class="imagem" alt="" width="100px"
+height="100px"></div>
+<footer class="frase">
+<p class="estudo">© 2022 Estudo.para uma tela de login Lucas Campos 
+Rodrigues </p>
+</footer>
+</body>
+</html
